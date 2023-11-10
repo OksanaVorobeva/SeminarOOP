@@ -5,7 +5,7 @@ public class Square extends  Rectangle{
         super(width, height);
     }
 
-    @Override
+/*    @Override
     public void setWidth(int width) {
        super.width=width;
        super.height=width;
@@ -15,5 +15,5 @@ public class Square extends  Rectangle{
     public void setHeight(int height) {
         super.width=height;
         super.height=height;
-    }
+    }*/
 }
