@@ -1,6 +1,6 @@
 package seminar6.solid_2;
 
-public class Vehicle {
+public abstract  class Vehicle {
     int maxSpeed;
     String type;
 
@@ -24,4 +24,6 @@ public class Vehicle {
     public void setType(String type) {
         this.type = type;
     }
+
+    public abstract double calculateAllowedSpeed();
 }

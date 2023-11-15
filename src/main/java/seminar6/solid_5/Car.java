@@ -1,9 +1,9 @@
 package seminar6.solid_5;
 
 public class Car {
-    private PetrolEngine engine;
+    private Engine engine;
 
-    public Car(PetrolEngine engine) {
+    public Car(Engine engine) {
         this.engine = engine;
     }
     public void start(){

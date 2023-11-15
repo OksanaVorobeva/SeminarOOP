@@ -1,6 +1,6 @@
 package seminar6.solid_4;
 
-public class Rectangle {
+public class Rectangle implements  Shape{
     private int width;
     private  int height;
 
@@ -19,4 +19,6 @@ public class Rectangle {
     public int area(){
         return  this.width*this.height;
     }
+
+
 }

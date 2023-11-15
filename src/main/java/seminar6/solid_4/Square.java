@@ -1,19 +1,19 @@
 package seminar6.solid_4;
 
-public class Square extends  Rectangle{
-    public Square(int width, int height) {
-        super(width, height);
+public class Square implements Shape{
+
+    private int width;
+
+    public Square(int width) {
+        this.width = width;
     }
 
-/*    @Override
     public void setWidth(int width) {
-       super.width=width;
-       super.height=width;
+        this.width = width;
     }
 
     @Override
-    public void setHeight(int height) {
-        super.width=height;
-        super.height=height;
-    }*/
+    public int area() {
+        return width*width;
+    }
 }

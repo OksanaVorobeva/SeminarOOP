@@ -1,7 +1,7 @@
 package seminar6.solid_3;
 
-public class Circle implements  Shape{
-    private  double radius;
+public class Circle implements FlatShare {
+    private double radius;
 
     public Circle(double radius) {
         this.radius = radius;
@@ -9,13 +9,10 @@ public class Circle implements  Shape{
 
     @Override
     public double area() {
-        return 2*3.14*radius;
+        return 2 * 3.14 * radius;
     }
-
-    @Override
-    public double volime() {
-        throw  new UnsupportedOperationException(){};
-    }
-
 
 }
+
+
+

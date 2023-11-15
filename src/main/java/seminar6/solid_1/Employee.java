@@ -17,8 +17,15 @@ public class Employee {
         return "name-"+name+", dob-"+dob.toString();
     }
 
-    public  int calculateNetSalary(){
-        int tax=(int) (baseSalary*0.25); //calculate in otherway
-        return baseSalary-tax;
+    public String getName() {
+        return name;
+    }
+
+    public Date getDob() {
+        return dob;
+    }
+
+    public int getBaseSalary() {
+        return baseSalary;
     }
 }
